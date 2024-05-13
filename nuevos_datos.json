@@ -1,0 +1,46 @@
+{
+    "usuarios": [
+        {
+            "nombre": "david",
+            "ciudad": "barranquilla",
+            "edad": "16",
+            "documento": "1123456789"
+        },
+        {
+            "nombre": "davido",
+            "ciudad": "cartagena",
+            "edad": "45",
+            "documento": "6578341256"
+        },
+        {
+            "nombre": "cristian",
+            "ciudad": "bogota",
+            "edad": "65",
+            "documento": "8790432512"
+        },
+        {
+            "nombre": "valentina",
+            "ciudad": "cali",
+            "edad": "52",
+            "documento": "6543217865"
+        },
+        {
+            "nombre": "camila",
+            "ciudad": "giron",
+            "edad": 19,
+            "documento": "4567809104"
+        },
+        {
+            "nombre": "valentin",
+            "ciudad": "bogota",
+            "edad": 65,
+            "documento": "3456765410"
+        },
+        {
+            "nombre": "roberta",
+            "ciudad": "bucarmanga",
+            "edad": 54,
+            "documento": "4536272324"
+        }
+    ]
+}
