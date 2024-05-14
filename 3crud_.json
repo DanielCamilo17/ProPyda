@@ -1,17 +1,16 @@
 {
-    "internet_fibra_optica": [
-      {
-        "megas": 100,
-        "precio_mensual": 50
-      },
-      {
-        "megas": 200,
-        "precio_mensual": 70
-      },
-      {
-        "megas": 500,
-        "precio_mensual": 90
-      }
-    ]
-  }
-  
+  "planes_pospago": [
+    {
+      "gigas": 5,
+      "precio": 20.99
+    },
+    {
+      "gigas": 10,
+      "precio": 30.99
+    },
+    {
+      "gigas": 20,
+      "precio": 40.99
+    }
+  ]
+}

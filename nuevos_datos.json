@@ -47,13 +47,12 @@
             "ciudad": "",
             "edad": "7",
             "documento": ""
+        },
+        {
+            "nombre": "juliana",
+            "ciudad": "bucamaramanga",
+            "edad": 17,
+            "documento": "4536271234"
         }
     ]
-    
 }
-
-
-
-
-
-

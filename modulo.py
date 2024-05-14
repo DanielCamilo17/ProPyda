@@ -5,7 +5,7 @@ def colortexto(text):
     for chart in text:
         print(Fore.RED + chart, end="",flush=True)
         time.sleep(0.001)
-    # print(Style.reset_all)
+   
     
 
 

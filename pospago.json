@@ -1,0 +1,17 @@
+{
+    "planes_prepago": [
+      {
+        "gigas": 5,
+        "precio": 10.99
+      },
+      {
+        "gigas": 10,
+        "precio": 19.99
+      },
+      {
+        "gigas": 20,
+        "precio": 29.99
+      }
+    ]
+  }
+  
