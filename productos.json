@@ -1,0 +1,24 @@
+{
+    "productos": [
+        {
+            "nombre": "Celular",
+            "precio": "500"
+        },
+        {
+            "nombre": "Televisor",
+            "precio": "1000"
+        },
+        {
+            "nombre": "Tablet",
+            "precio": "300"
+        },
+        {
+            "nombre": "gh",
+            "precio": "5656"
+        },
+        {
+            "nombre": "wef",
+            "precio": "5435366"
+        }
+    ]
+}

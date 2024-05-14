@@ -59,7 +59,9 @@ def eliminar_usuario(datos):
             print("Usuario eliminado con éxito!")
             return datos
     print("Usuario no encontrado.")
-    return datos               
+    return datos
+
+         
 
 def menu_usuario():
     datos = cargar_datos("nuevos_datos.json")
@@ -105,5 +107,3 @@ def menu_usuario():
 
         elif opciones == "5":
             return "devolverse"
-
-    menu_usuario()

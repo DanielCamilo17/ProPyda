@@ -27,20 +27,33 @@
         {
             "nombre": "camila",
             "ciudad": "giron",
-            "edad": 19,
+            "edad": "19",
             "documento": "4567809104"
         },
         {
             "nombre": "valentin",
             "ciudad": "bogota",
-            "edad": 65,
+            "edad": "65",
             "documento": "3456765410"
         },
         {
             "nombre": "roberta",
             "ciudad": "bucarmanga",
-            "edad": 54,
+            "edad": "54",
             "documento": "4536272324"
+        },
+        {
+            "nombre": "",
+            "ciudad": "",
+            "edad": "7",
+            "documento": ""
         }
     ]
+    
 }
+
+
+
+
+
+

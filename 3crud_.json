@@ -1,0 +1,17 @@
+{
+    "internet_fibra_optica": [
+      {
+        "megas": 100,
+        "precio_mensual": 50
+      },
+      {
+        "megas": 200,
+        "precio_mensual": 70
+      },
+      {
+        "megas": 500,
+        "precio_mensual": 90
+      }
+    ]
+  }
+  

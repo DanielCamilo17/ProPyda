@@ -1,5 +1,6 @@
 
 import modulo
+from modulo_manu import menu_principal
 
 texto=modulo.colortexto(
 """                       
@@ -44,9 +45,5 @@ print()
 
 
 
-
-from modulo_menu import menu_principal
-
-
-
+menu_principal()
 
