@@ -1,6 +1,5 @@
 import json
 
-# Función para cargar los datos del archivo JSON
 def cargar_datos():
     try:
         with open("planes_prepago.json", "r") as file:
@@ -8,19 +7,16 @@ def cargar_datos():
     except FileNotFoundError:
         return {"planes_prepago": []}
 
-# Función para guardar los datos en el archivo JSON
 def guardar_datos(datos):
     with open("planes_prepago.json", "w") as file:
         json.dump(datos, file, indent=4)
 
-# Función para mostrar todos los planes prepago
 def mostrar_planes():
     datos = cargar_datos()
     print("Planes Prepago:")
     for plan in datos["planes_prepago"]:
         print(plan)
 
-# Función para crear un nuevo plan prepago
 def crear_plan():
     datos = cargar_datos()
     gb = input("Ingrese la cantidad de GB: ")
@@ -30,7 +26,7 @@ def crear_plan():
     guardar_datos(datos)
     print("¡Plan creado exitosamente!")
 
-# Función para actualizar un plan prepago
+
 def actualizar_plan():
     datos = cargar_datos()
     mostrar_planes()
@@ -42,7 +38,6 @@ def actualizar_plan():
     guardar_datos(datos)
     print("¡Plan actualizado exitosamente!")
 
-# Función para eliminar un plan prepago
 def eliminar_plan():
     datos = cargar_datos()
     mostrar_planes()
@@ -51,7 +46,6 @@ def eliminar_plan():
     guardar_datos(datos)
     print("¡Plan eliminado exitosamente!")
 
-# Función principal para gestionar los planes prepago
 def gestionar_plan_prepago():
     while True:
         print("\nMenú de gestión de Plan prepago:")
@@ -75,7 +69,6 @@ def gestionar_plan_prepago():
         else:
             print("Opción inválida. Por favor, seleccione una opción válida.")
 
-# Función para mostrar el menú principal
 def mostrar_menu():
     print("Bienvenido al sistema de gestión de servicios de Internet:")
     print("1. Internet de fibra óptica")

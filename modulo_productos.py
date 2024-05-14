@@ -78,5 +78,5 @@ def menu_productos():
         else:
             print("Opción no válida. Por favor, seleccione una opción válida.")
 
-if __name__ == "__main__":
+
     menu_productos()
