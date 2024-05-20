@@ -31,13 +31,27 @@ def crear_plan():
 def actualizar_plan():
     datos = cargar_datos()
     mostrar_planes()
+    lista_planes = datos["internet_fibra_optica"]
+    
+    if not lista_planes:  # Verifica si la lista de planes está vacía
+        print("No hay planes disponibles para actualizar.")
+        return
+    
     indice = int(input("Ingrese el número del plan que desea actualizar: ")) - 1
+    
+    if indice < 0 or indice >= len(lista_planes):  # Verifica si el índice está fuera del rango
+        print("El número de plan ingresado no es válido.")
+        return
+    
     megas_nuevos = input("Ingrese la nueva cantidad de megas: ")
     precio_nuevo = input("Ingrese el nuevo precio mensual: ")
-    datos["internet_fibra_optica"][indice]["megas"] = int(megas_nuevos)
-    datos["internet_fibra_optica"][indice]["precio_mensual"] = float(precio_nuevo)
+    
+    lista_planes[indice]["megas"] = int(megas_nuevos)
+    lista_planes[indice]["precio_mensual"] = float(precio_nuevo)
+    
     guardar_datos(datos)
     print("¡Plan actualizado exitosamente!")
+
 
 def eliminar_plan():
     datos = cargar_datos()

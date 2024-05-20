@@ -1,0 +1,16 @@
+{
+    "usuarios": {
+        "nombre_usuario1": {
+            "contrase\u00f1a": "contrase\u00f1a1"
+        },
+        "nombre_usuario2": {
+            "contrase\u00f1a": "contrase\u00f1a2"
+        },
+        "Daniel": {
+            "contrase\u00f1a": "12345"
+        },
+        "g": {
+            "contrase\u00f1a": "4"
+        }
+    }
+}
