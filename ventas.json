@@ -1,0 +1,28 @@
+{
+    "ventas": [
+        {
+            "usuario": "usuario1",
+            "producto": "Celular",
+            "precio": "500",
+            "fecha_hora": "2024-05-21 10:00:00"
+        },
+        {
+            "usuario": "usuario2",
+            "producto": "Televisor",
+            "precio": "1000",
+            "fecha_hora": "2024-05-21 11:00:00"
+        },
+        {
+            "usuario": "FA",
+            "producto": "wef",
+            "precio": "5435366",
+            "fecha_hora": "2024-05-21 16:40:33"
+        },
+        {
+            "usuario": "Juankis",
+            "producto": "Televisor",
+            "precio": "1000",
+            "fecha_hora": "2024-05-21 17:10:33"
+        }
+    ]
+}

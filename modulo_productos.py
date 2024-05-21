@@ -79,4 +79,3 @@ def menu_productos():
             print("Opción no válida. Por favor, seleccione una opción válida.")
 
 
-    menu_productos()

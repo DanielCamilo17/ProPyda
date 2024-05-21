@@ -1,12 +1,6 @@
 {
     "usuarios": [
         {
-            "nombre": "david",
-            "ciudad": "barranquilla",
-            "edad": "16",
-            "documento": "1123456789"
-        },
-        {
             "nombre": "davido",
             "ciudad": "cartagena",
             "edad": "45",
