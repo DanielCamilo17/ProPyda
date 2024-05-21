@@ -14,7 +14,10 @@ def menu_principal():
         
         if pregunta == "1":
             print("Bienvenido Usuario")
-            break
+            import modulo_usuarios
+            from modulo_usuarios import menuusu
+            menuusu()
+        
         elif pregunta == "2":
             while True:
                 print('''
@@ -43,6 +46,7 @@ def menu_principal():
         elif pregunta == "3":
             print("Saliendo del programa")
             break
+            
         else:
             print("Opción no válida. Por favor, seleccione una opción válida.")
 

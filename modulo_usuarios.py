@@ -1,4 +1,5 @@
 import json
+import modulo_manu
 
 def cargar_usuarios():
     try:
@@ -40,7 +41,7 @@ def iniciar_sesion():
     else:
         print("Nombre de usuario o contraseña incorrectos.")
 
-def menu():
+def menuusu():
     while True:
         print("1. Crear usuario")
         print("2. Iniciar sesión")
@@ -56,12 +57,16 @@ def menu():
         elif opcion == "2":
             iniciar_sesion()
         elif opcion == "3":
+            
             print("Saliendo...")
-            break
+            from modulo_manu import menu_principal
+            return menu_principal()
+            
+        
         else:
             print("Opción no válida.")
+            menuusu()
 
-if __name__ == "__main__":
-    menu()
+  
 
 
